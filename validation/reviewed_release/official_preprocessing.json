@@ -1,0 +1,333 @@
+{
+  "checked_at_utc": "2026-10-19T07:57:44.268089+00:00",
+  "purpose": "File-format and preprocessing compatibility only; no training, model predictions, or clinical metrics",
+  "sample_selection": "First normal and first TB-labeled file in each official index; four samples do not validate all dataset images",
+  "images_redistributed": false,
+  "opencv": "4.14.0",
+  "numpy": "2.5.2",
+  "samples": [
+    {
+      "dataset": "shenzhen",
+      "filename": "CHNCXR_0001_0.png",
+      "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/CXR_png/CHNCXR_0001_0.png",
+      "sha256": "e464a828425fe77ecebfcae955db4f9b9f1cf608a3fcb69a30e33a99eabd9459",
+      "bytes": 5920202,
+      "encoded_shape": [
+        2919,
+        3000,
+        3
+      ],
+      "decoded_shape": [
+        2919,
+        3000
+      ],
+      "dtype": "uint8",
+      "replicated_grayscale_channels": true,
+      "pixels_preserved": true,
+      "preprocessing": [
+        {
+          "method": "identity",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "8c462113825c63560498770a9085a98180159e97b860724db333f555acdc9421"
+        },
+        {
+          "method": "legacy_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "7ad017ed4f1b04e713d60a9fdc6ad7706935ce0f57bf6dc1b59be543653061c1"
+        },
+        {
+          "method": "corrected_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "97bb3dddb9f4aecec1967d515e4acb258322b198384c75933fcaa20536c6dedc"
+        },
+        {
+          "method": "gaussian_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "a70d917ec914248d85fae08bbf34065d91cc0814077214f829088b5e486e6660"
+        },
+        {
+          "method": "ideal_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "08d4de2684208d8ab0f8cf1449aa3062583b5be7728db125faa0fe64a1d6e2fd"
+        }
+      ]
+    },
+    {
+      "dataset": "shenzhen",
+      "filename": "CHNCXR_0327_1.png",
+      "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/CXR_png/CHNCXR_0327_1.png",
+      "sha256": "3fd59f333e1525751037be898644c254d163e0fc5a1344fdc461ab654168ee56",
+      "bytes": 5553963,
+      "encoded_shape": [
+        2566,
+        2566,
+        3
+      ],
+      "decoded_shape": [
+        2566,
+        2566
+      ],
+      "dtype": "uint8",
+      "replicated_grayscale_channels": true,
+      "pixels_preserved": true,
+      "preprocessing": [
+        {
+          "method": "identity",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.01255672238767147,
+          "maximum": 0.9908032417297363,
+          "finite": true,
+          "sha256_float32_pixels": "8e79cf3923b71c73ae53457549fa3f456ee30739a561f3dbe37211d6b656186c"
+        },
+        {
+          "method": "legacy_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "51d28ef44240fa70a6f26afc39c7a4d266436406a1d826442ba3424ce8c01e00"
+        },
+        {
+          "method": "corrected_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "465c76fa27d027823f1d877487eed1eeb1f03c8bee7809720a06c5461b67017d"
+        },
+        {
+          "method": "gaussian_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "3137e7694742035133501041cd57c73ebf7089025b724d578b5d2558c823193c"
+        },
+        {
+          "method": "ideal_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "9a7c58e9f8f214634d512b18eb6d8914ca4f48732dc7292578d7b70996d4cbbd"
+        }
+      ]
+    },
+    {
+      "dataset": "montgomery",
+      "filename": "MCUCXR_0001_0.png",
+      "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/CXR_png/MCUCXR_0001_0.png",
+      "sha256": "754d3ef3986e8682624f2e1c2cd14aacd3a503869f965a38235b6b07465e12da",
+      "bytes": 5202442,
+      "encoded_shape": [
+        4020,
+        4892
+      ],
+      "decoded_shape": [
+        4020,
+        4892
+      ],
+      "dtype": "uint8",
+      "replicated_grayscale_channels": false,
+      "pixels_preserved": true,
+      "preprocessing": [
+        {
+          "method": "identity",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "5c3a3011cff7854874bba47242dfe79f7e142f847691370c5c6971dc38508ccb"
+        },
+        {
+          "method": "legacy_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "8ded7ea1dc775c455e90fa5cb68d51a307e14290d655bf64cf06aa169ca12c4f"
+        },
+        {
+          "method": "corrected_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "9bb94d54c171e733a728697b5fd07cb6cf2298ce7788a00a398969154d88a16b"
+        },
+        {
+          "method": "gaussian_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "4d867fbed6ac5ff813f819dc93bc720a7f992d99559d5ade6d915ff0ccf198b7"
+        },
+        {
+          "method": "ideal_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "52b4ecb3439fc3278de67cbf0b608b9985e87b86b6bdf504f7d42b73ebc309cd"
+        }
+      ]
+    },
+    {
+      "dataset": "montgomery",
+      "filename": "MCUCXR_0104_1.png",
+      "url": "https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/CXR_png/MCUCXR_0104_1.png",
+      "sha256": "079741458b058a14b26e1c3e48f8056e01c1ec75119293eb5456b55bff4cdb16",
+      "bytes": 4364293,
+      "encoded_shape": [
+        4892,
+        4020
+      ],
+      "decoded_shape": [
+        4892,
+        4020
+      ],
+      "dtype": "uint8",
+      "replicated_grayscale_channels": false,
+      "pixels_preserved": true,
+      "preprocessing": [
+        {
+          "method": "identity",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "35b7a260635e402342f221c8f62ad68ba7dcc17a3a0d20580140f01418cedf78"
+        },
+        {
+          "method": "legacy_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "169b66f5a8c236c3c7fdeecf39e44213ee50d0c5ffbf647f8ccbbfbff0ef4ebd"
+        },
+        {
+          "method": "corrected_unsharp",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "a3fb76bb0d4e856282403cd83a1826344b27a0ac6ba9e25b1c58a510ed8839fc"
+        },
+        {
+          "method": "gaussian_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "d0fc220dbe7a0916d52817c6a2715518b89486aac07b33c94d09a5d6374d51e0"
+        },
+        {
+          "method": "ideal_hef",
+          "shape": [
+            384,
+            384
+          ],
+          "dtype": "float32",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "finite": true,
+          "sha256_float32_pixels": "a08e7fb870dab7eef68b5073f647caf872504adb258063ec5cbb029cfbe326df"
+        }
+      ]
+    }
+  ],
+  "preprocessing_checks_passed": 20
+}

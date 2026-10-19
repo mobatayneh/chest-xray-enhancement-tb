@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-10-19T07:58:25.090020+00:00",
+  "purpose": "Untrained model and preprocessing compatibility only; no research predictions or performance metrics",
+  "model": "EfficientNet-V2-S",
+  "initialization": "Random weights only; seed 2026; no pretrained weight download",
+  "training_performed": false,
+  "test_cohort_model_use": false,
+  "device": "cpu",
+  "torch": "2.13.0+cpu",
+  "torch_threads": 2,
+  "source_filenames": [
+    "CHNCXR_0001_0.png",
+    "CHNCXR_0327_1.png"
+  ],
+  "checks": [
+    {
+      "method": "identity",
+      "input_shape": [
+        2,
+        3,
+        384,
+        384
+      ],
+      "output_shape": [
+        2,
+        1
+      ],
+      "finite_logits": true,
+      "wall_seconds": 0.757928200007882
+    },
+    {
+      "method": "legacy_unsharp",
+      "input_shape": [
+        2,
+        3,
+        384,
+        384
+      ],
+      "output_shape": [
+        2,
+        1
+      ],
+      "finite_logits": true,
+      "wall_seconds": 0.4825915999826975
+    },
+    {
+      "method": "corrected_unsharp",
+      "input_shape": [
+        2,
+        3,
+        384,
+        384
+      ],
+      "output_shape": [
+        2,
+        1
+      ],
+      "finite_logits": true,
+      "wall_seconds": 0.4100773999816738
+    },
+    {
+      "method": "gaussian_hef",
+      "input_shape": [
+        2,
+        3,
+        384,
+        384
+      ],
+      "output_shape": [
+        2,
+        1
+      ],
+      "finite_logits": true,
+      "wall_seconds": 0.4262899999739602
+    },
+    {
+      "method": "ideal_hef",
+      "input_shape": [
+        2,
+        3,
+        384,
+        384
+      ],
+      "output_shape": [
+        2,
+        1
+      ],
+      "finite_logits": true,
+      "wall_seconds": 0.42936000000918284
+    }
+  ]
+}

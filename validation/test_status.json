@@ -1,0 +1,42 @@
+{
+  "colab_gpu_installation_tested": false,
+  "dependency_compatibility_check": "78 installed distributions compatible",
+  "editable_install": "passed",
+  "existing_results_zip_preserved": true,
+  "export_verification": {
+    "archive_sha256": "8ecdcebec3ac67e1d71820a8016b30749ddf54539faf74d9e885adf60afe566e",
+    "verified_files": 67,
+    "verified_runs": 5
+  },
+  "full_run_all_recovery_passed": true,
+  "notebook": {
+    "code_cells": 9,
+    "dependency_install_executed": false,
+    "errors": [],
+    "real_training_completed": false,
+    "success": true,
+    "synthetic_only": true
+  },
+  "original_files_unchanged": 13,
+  "preserved_epoch_checkpoints": {
+    "runs/smoke/runs/corrected_unsharp__seed_42/checkpoints/epoch_0001.pt": "14c9c7758c0a28787d930c87039e3d07f299017b1dbaff6ebe75fd3823b7b828",
+    "runs/smoke/runs/corrected_unsharp__seed_42/checkpoints/epoch_0002.pt": "ba15340336f01331ff16366f5fe197b5dba7a85fb984daa7ab6b6a95b51933a6",
+    "runs/smoke/runs/gaussian_hef__seed_42/checkpoints/epoch_0001.pt": "e87b0b5cb36f050cfce9896ff2724fd73cbfa4efb6c040b70168c936e809321c",
+    "runs/smoke/runs/gaussian_hef__seed_42/checkpoints/epoch_0002.pt": "9f67574c9465bf52bfedde985e4335f74b0365c051048936c50abf5cc64fc516",
+    "runs/smoke/runs/ideal_hef__seed_42/checkpoints/epoch_0001.pt": "9f42e987e68e259fd574372e4f61f800f950ccad94223fbd155d5470923e6b1f",
+    "runs/smoke/runs/ideal_hef__seed_42/checkpoints/epoch_0002.pt": "0e58cf489c63423fba5a6e22a35684c6f099cfcc4866583a8d8713e0e7e7897a",
+    "runs/smoke/runs/identity__seed_42/checkpoints/epoch_0001.pt": "647c29a52a6a2a18d7f120ad8f3efc48b5c14ebbc8bc6de60d3f3b6812750de9",
+    "runs/smoke/runs/identity__seed_42/checkpoints/epoch_0002.pt": "ace4ef32fc4fb6872c41f28a1e6df86d2699014e131e3536cd1ad03f5005df48",
+    "runs/smoke/runs/legacy_unsharp__seed_42/checkpoints/epoch_0001.pt": "1ba72c1e0e723807a5b658237ba16af4a5210ba98736dec105d6c30c3e6f3dd2",
+    "runs/smoke/runs/legacy_unsharp__seed_42/checkpoints/epoch_0002.pt": "484dcf899ed46cb623a86f2f8fb28803896f46b521a8dbc1980b49d25abc32ba"
+  },
+  "real_training_completed": false,
+  "recorded_utc": "2026-10-19T00:29:21.830180+00:00",
+  "ruff": "passed",
+  "source_sha256": "2fec77f93e80ddf55214578541272816a1a052c3b0cb3ab1254d3fbc8e7a9f93",
+  "unit_tests": {
+    "command": "python -m pytest -q",
+    "exit_code": 0,
+    "passed": 104
+  }
+}

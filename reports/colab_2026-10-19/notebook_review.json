@@ -1,0 +1,175 @@
+{
+  "review_date": "2026-10-19",
+  "scope": "Read-only audit of returned executed notebook, provenance, histories, and frozen delivered source. No training or source edits.",
+  "inputs": {
+    "executed_notebook": {
+      "sha256": "015db494a645b71bfc1506221c52d0c4c90e45a129c434969f4f64691426345e",
+      "bytes": 439938,
+      "filename": "04_colab_improved_training.ipynb"
+    },
+    "results_archive": {
+      "sha256": "655b3c6be8f14eb507004d5aed7acd19e6e690692185b0c1d5ae4f2bddea44e6",
+      "bytes": 2915654,
+      "members": 168,
+      "checksum_entries": 167,
+      "uncompressed_bytes": 3940636,
+      "filename": "results_for_review.zip"
+    }
+  },
+  "notebook": {
+    "nbformat_validation": "PASSED",
+    "python_ast_validation": "PASSED for all 10 code cells",
+    "cells": 20,
+    "code_cells": 10,
+    "saved_error_outputs": 0,
+    "changed_original_cells": [
+      {
+        "id": "cxr-04",
+        "change": "WORK_ROOT uses cxr-enhancement-tb-clean-v2 instead of cxr-enhancement-tb"
+      }
+    ],
+    "added_cells": [
+      {
+        "id": "hfd1bzK5XRLc",
+        "purpose": "Upload and verify the previously delivered local-cache helper, then enable CLI data-root overrides",
+        "helper_sha256": "6034a121fefd30a2055e5eaaf2045c157ce724dd2cc499cdd5e2d1a2c16829f1",
+        "matches_delivered_helper": true,
+        "reported_verified_images": 800
+      }
+    ],
+    "execution_counts": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14
+    ],
+    "execution_mode": "Interactive execution with a documented resume; not evidence of an uninterrupted clean top-to-bottom run",
+    "embedded_plot_bytes_match_archive": [
+      "model_comparison.png",
+      "runs/identity__seed_42/learning_curves.png",
+      "runs/identity__seed_42/confusion_matrix.png"
+    ],
+    "stale_metadata": "Notebook language_info.version is 3.12, while execution and environment records identify Python 3.13.15"
+  },
+  "frozen_protocol": {
+    "model": "efficientnet_v2_s",
+    "initial_weights": "IMAGENET1K_V1",
+    "methods": [
+      "identity",
+      "legacy_unsharp",
+      "corrected_unsharp",
+      "gaussian_hef",
+      "ideal_hef"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "runs": 15,
+    "epochs_per_run": 10,
+    "history_rows": 150,
+    "physical_batch": 8,
+    "effective_batch": 32,
+    "accumulation_steps": 4,
+    "workers": 2,
+    "amp": true,
+    "threshold": 0.5,
+    "split_seed": 2026,
+    "train_cases": 529,
+    "validation_cases": 133,
+    "external_test_cases": 138,
+    "all_selected_epochs_match_validation_selection_rule": true,
+    "all_run_configuration_and_environment_hashes_match": true,
+    "runtime_device": "Tesla T4",
+    "runtime_python": "3.13.15",
+    "runtime_torch": "2.13.0+cu126",
+    "runtime_torchvision": "0.28.0+cu126"
+  },
+  "provenance": {
+    "notebook_pinned_files_checked": 32,
+    "pinned_files_match_current_source": true,
+    "frozen_zip_runtime_python_files_checked": 13,
+    "frozen_zip_runtime_files_match_current_source": true,
+    "suite_source_hash": "d18d2ae446d4f412515b0455976bef262b3d72e356394bbf3bdbd108b6201361",
+    "training_source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a",
+    "source_hash_explanation": "These are different documented algorithms over the same 13 source files, not different training source versions.",
+    "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+    "training_environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+    "original_manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+    "original_manifest_reconstruction": "Exact hash reproduced by reinserting path=CXR_png/<sample_id>.png into split_manifest.csv using the original CSV field order and LF terminators.",
+    "original_preparation_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+    "preparation_report_reconstruction": "Exact hash reproduced from the original report JSON in the notebook preparation output. Exported data_validation.json equals that original after removing roots.",
+    "suite_to_evaluation_lock_hash_matches": true,
+    "completion_to_evaluation_lock_hash_matches": true,
+    "notebook_export_sha_matches_returned_archive": true
+  },
+  "software_tests": {
+    "execution_location": "User Google Colab runtime",
+    "passed": 137,
+    "skipped": 1,
+    "reported_pytest_seconds": 31.2,
+    "command_wall_seconds": 33.521554,
+    "skip_reason": "Offline bootstrap wheel is unavailable on this Python",
+    "matching_evidence": [
+      "notebook cxr-08",
+      "provenance/software_validation.json"
+    ],
+    "source_hash_matches_suite": true,
+    "local_training_rerun": false
+  },
+  "training_history": {
+    "recorded_train_validation_seconds": 14236.047982594006,
+    "recorded_train_validation_hours": 3.9544577729427792,
+    "epoch_seconds_min": 88.33298762399863,
+    "epoch_seconds_median": 94.50230958099928,
+    "epoch_seconds_max": 112.64309173299988,
+    "timer_scope": "Input loading, preprocessing, training, validation, CPU metrics and scheduler; excludes subsequent checkpoint/summary persistence, setup, downloads, external evaluation and export.",
+    "pure_gpu_compute_hours_measured": false,
+    "saved_epoch_log_lines": 137,
+    "saved_epoch_logs_match_csv_to_printed_precision": true,
+    "saved_log_first": "2026-10-19 08:56:49,029 identity seed=43 epoch=4",
+    "saved_log_last": "2026-10-19 12:37:31,476 ideal_hef seed=44 epoch=10",
+    "saved_log_span_seconds": 13242.447,
+    "missing_from_saved_log": "identity seed42 epochs1-10 and identity seed43 epochs1-3 were completed before the resumed cell output; all 13 are present in the returned history.",
+    "same_run_adjacent_intervals": 123,
+    "approximate_post_history_overhead_mean_seconds": 2.162755158365781,
+    "approximate_post_history_overhead_median_seconds": 2.149086100999966,
+    "timing_caution": "Timestamp residuals are not direct CPU/GPU/I/O profiling. Full end-to-end wall time and attributable cache speedup cannot be recovered from these artifacts alone."
+  },
+  "checkpoints": {
+    "declared_epoch_checkpoints": 150,
+    "declared_total_bytes": 24374793282,
+    "declared_total_gib": 22.70079523511231,
+    "selected_checkpoints": 15,
+    "declared_selected_total_bytes": 2437484333,
+    "declared_selected_total_gib": 2.2700841845944524,
+    "checkpoint_weight_files_supplied": false,
+    "independent_weight_hash_or_inference_verification": "UNVERIFIED because actual checkpoint files and image files were not supplied"
+  },
+  "publication_hygiene": {
+    "raw_xray_or_model_checkpoint_files_in_zip": false,
+    "plot_pngs_in_zip": 61,
+    "credential_pattern_scan": "No GitHub token, OpenAI token, AWS access-key identifier or private-key marker matched the targeted scan; this is not a guarantee against every secret format.",
+    "private_runtime_paths": [
+      "executed notebook outputs and source cell",
+      "provenance/software_validation.json"
+    ],
+    "case_level_data": "split_manifest.csv, predictions.csv and per-run prediction CSVs include NLM case identifiers, labels and image hashes; they are not aggregate-only release artifacts.",
+    "recommendation": "Preserve originals privately. Publish verified aggregate results, plots and clean source notebook; review case-level artifact redistribution separately and redact private execution paths in any public derivative, with new checksums."
+  },
+  "limitations": [
+    "Actual images and model checkpoints were not supplied, so pixel duplication checks, model inference and checkpoint byte hashes could not be independently rerun.",
+    "No verified patient map exists; 138 case groups do not establish 138 independent patients.",
+    "The absence of saved errors describes the final notebook only; earlier overwritten executions and complete command logs were not supplied.",
+    "Hash consistency protects against accidental changes but does not provide a signed, independently timestamped proof of prior test isolation.",
+    "The external dataset is now evaluated; future protocol tuning requires new external evidence for confirmatory claims.",
+    "No benchmark of physical batches16/32 was executed; no GPU utilization percentage or proven acceleration should be reported."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "preserved_artifacts": 11,
+  "checkpoints": 10,
+  "results_zip_unchanged": true,
+  "real_training_completed": false,
+  "sha256": {
+    "runs\\smoke\\runs\\corrected_unsharp__seed_42\\checkpoints\\epoch_0001.pt": "546249064a08d221556c2951bcac6ccad8e18fd55be659027794519ec5226580",
+    "runs\\smoke\\runs\\corrected_unsharp__seed_42\\checkpoints\\epoch_0002.pt": "9209db04d2c5e5bd997a24d953986e8f86c0a11195a04bf727c6cce389231bfd",
+    "runs\\smoke\\runs\\identity__seed_42\\checkpoints\\epoch_0002.pt": "ce6c2e2047b856f8cff5bf62361c94b99a873717417d0be301c2e0888af463b9",
+    "runs\\smoke\\runs\\identity__seed_42\\checkpoints\\epoch_0001.pt": "b6261996352ff9473c02126532582ff64c5734685ea5b1f9baa2ecd09a080c27",
+    "runs\\smoke\\runs\\gaussian_hef__seed_42\\checkpoints\\epoch_0002.pt": "c6dcddfd5f26b0d85aaba62e833c8b55eac06ba9691b9839de44e61b9cbd4cb4",
+    "results_for_review.zip": "00ca808634f04a26a6e90e0ec4361bf68aefc41cc82753ae354eb62f46381792",
+    "runs\\smoke\\runs\\ideal_hef__seed_42\\checkpoints\\epoch_0002.pt": "3f9d54ad23ca48d834591e351c501d982c4611e574eca917b9d42db25fa53ea7",
+    "runs\\smoke\\runs\\gaussian_hef__seed_42\\checkpoints\\epoch_0001.pt": "eecea51f9b03f78e5c179dd903e8fe124fd5e5794e0e371e701425a8e5fdf65c",
+    "runs\\smoke\\runs\\ideal_hef__seed_42\\checkpoints\\epoch_0001.pt": "84709ea1f71158095ccb7374aeb08a06b643b40b7b981228b05278f8626ca187",
+    "runs\\smoke\\runs\\legacy_unsharp__seed_42\\checkpoints\\epoch_0002.pt": "e88fd4cfc9c4a057059cebd55dc7ae7ea27daf1f6de1ffc71d5a4e6c508f7f7d",
+    "runs\\smoke\\runs\\legacy_unsharp__seed_42\\checkpoints\\epoch_0001.pt": "a6268d5914119737b2047029d7de67b9858c0c7a605c59782a055b70a0221e55"
+  }
+}

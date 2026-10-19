@@ -1,0 +1,37 @@
+{
+  "amp": true,
+  "batch_size": 32,
+  "bootstrap_samples": 2000,
+  "deterministic": true,
+  "epochs": 10,
+  "eta_min": 1e-06,
+  "image_size": 384,
+  "learning_rate": 0.01,
+  "legacy_geometry": false,
+  "methods": [
+    "identity",
+    "legacy_unsharp",
+    "corrected_unsharp",
+    "gaussian_hef",
+    "ideal_hef"
+  ],
+  "microbatch_size": 8,
+  "model": "efficientnet_v2_s",
+  "momentum": 0.9,
+  "optimizer": "sgd",
+  "rotation_degrees": 10.0,
+  "rotation_probability": 0.5,
+  "scheduler": "cosine",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection_metric": "roc_auc",
+  "split_seed": 2026,
+  "synthetic": false,
+  "threshold": 0.5,
+  "weight_decay": 0.0005,
+  "weights": "IMAGENET1K_V1",
+  "workers": 2
+}

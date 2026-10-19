@@ -1,0 +1,18 @@
+{
+  "stage": "unit_tests",
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "started_at": "2026-10-19T08:18:37.388929+00:00",
+  "finished_at": "2026-10-19T08:19:10.910483+00:00",
+  "exit_code": 0,
+  "status": "passed",
+  "kind": "software_tests_only",
+  "source_hash": "d18d2ae446d4f412515b0455976bef262b3d72e356394bbf3bdbd108b6201361",
+  "package_id": "421edf60690ad7a0",
+  "stdout": "........................................................................ [ 52%]\n...........................................s......................       [100%]\n=========================== short test summary info ============================\nSKIPPED [1] tests/test_notebook.py:161: Offline bootstrap wheel is unavailable on this Python\n137 passed, 1 skipped in 31.20s\n",
+  "publication_note": "Original local log and temporary-directory paths omitted; source archive retained privately."
+}

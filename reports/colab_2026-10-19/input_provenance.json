@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-10-19",
+  "results_archive_sha256": "655b3c6be8f14eb507004d5aed7acd19e6e690692185b0c1d5ae4f2bddea44e6",
+  "executed_notebook_sha256": "015db494a645b71bfc1506221c52d0c4c90e45a129c434969f4f64691426345e",
+  "publication_scope": "Aggregate experiment results, model metadata and generated figures only.",
+  "private_evidence": [
+    "Original review ZIP",
+    "Executed notebook outputs",
+    "Per-case predictions",
+    "Split membership and per-image hashes"
+  ],
+  "unavailable_to_reviewer": [
+    "Checkpoint tensor files",
+    "Complete source image cohorts"
+  ],
+  "training_code_modified_for_review": false,
+  "timing": {
+    "recorded_train_validation_seconds": 14236.047982594006,
+    "epochs": 150,
+    "mean_recorded_epoch_seconds": 94.9069865506267,
+    "meaning": "Input loading, preprocessing, training and validation; excludes checkpoint saving, setup, evaluation and export. Not GPU compute time."
+  }
+}

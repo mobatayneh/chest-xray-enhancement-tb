@@ -1,0 +1,230 @@
+{
+  "selected_checkpoints": {
+    "corrected_unsharp__seed_42": {
+      "best_epoch": 9,
+      "checkpoint_location": "runs/corrected_unsharp__seed_42/checkpoints/epoch_0009.pt",
+      "checkpoint_sha256": "00c23e750308627028b1c558eb8e3a5405da9eb784a40b3c65249830a1cc0f04",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "corrected_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 42,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "corrected_unsharp__seed_43": {
+      "best_epoch": 10,
+      "checkpoint_location": "runs/corrected_unsharp__seed_43/checkpoints/epoch_0010.pt",
+      "checkpoint_sha256": "d4a03c4af8b3ad702bb3c1eba7b5ae7374f06b18322dcc05e8f59200fbc41d2f",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "corrected_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 43,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "corrected_unsharp__seed_44": {
+      "best_epoch": 7,
+      "checkpoint_location": "runs/corrected_unsharp__seed_44/checkpoints/epoch_0007.pt",
+      "checkpoint_sha256": "4f738fc84cecbbe230374f1bda42b2d6627c82da71d832ee557f6d753f9c41f6",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "corrected_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 44,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "gaussian_hef__seed_42": {
+      "best_epoch": 7,
+      "checkpoint_location": "runs/gaussian_hef__seed_42/checkpoints/epoch_0007.pt",
+      "checkpoint_sha256": "6f47f9bcec3c7728cca6b1b8d74daed59659fe72dea0ec9af748221d7e88f03a",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "gaussian_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 42,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "gaussian_hef__seed_43": {
+      "best_epoch": 9,
+      "checkpoint_location": "runs/gaussian_hef__seed_43/checkpoints/epoch_0009.pt",
+      "checkpoint_sha256": "e40b8b6ecdeea87612fb4816aab33cbfc3cf34ff84875e6325ab3aaeb89f35a9",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "gaussian_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 43,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "gaussian_hef__seed_44": {
+      "best_epoch": 10,
+      "checkpoint_location": "runs/gaussian_hef__seed_44/checkpoints/epoch_0010.pt",
+      "checkpoint_sha256": "93426a718777b7cf88b18bad3b060b649c95b41915c7fe2eb1037ce6714f62c7",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "gaussian_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 44,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "ideal_hef__seed_42": {
+      "best_epoch": 9,
+      "checkpoint_location": "runs/ideal_hef__seed_42/checkpoints/epoch_0009.pt",
+      "checkpoint_sha256": "14c18c4e6afd851c2518790f9956ed39446420841087dc3e65d83283bf65d5e0",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "ideal_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 42,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "ideal_hef__seed_43": {
+      "best_epoch": 6,
+      "checkpoint_location": "runs/ideal_hef__seed_43/checkpoints/epoch_0006.pt",
+      "checkpoint_sha256": "a5d03ca8864334068d489a105f233e9c9f8c66af23ce8d1402f74f864790cb59",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "ideal_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 43,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "ideal_hef__seed_44": {
+      "best_epoch": 5,
+      "checkpoint_location": "runs/ideal_hef__seed_44/checkpoints/epoch_0005.pt",
+      "checkpoint_sha256": "67c08fdae9294ab99ce01a508936ba50ee583a6ed832c3005fc911cb937b44b4",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "ideal_hef",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 44,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "identity__seed_42": {
+      "best_epoch": 10,
+      "checkpoint_location": "runs/identity__seed_42/checkpoints/epoch_0010.pt",
+      "checkpoint_sha256": "8770be58e0ab4fe046616a5c6426d0a055f63252bb4fae5d7f10ddd538a7653c",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "identity",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 42,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "identity__seed_43": {
+      "best_epoch": 8,
+      "checkpoint_location": "runs/identity__seed_43/checkpoints/epoch_0008.pt",
+      "checkpoint_sha256": "6ae05a01f614ed1c825eb5b14fcdfd4e1b5c58de3e707804fcd2e8505517ad71",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "identity",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 43,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "identity__seed_44": {
+      "best_epoch": 7,
+      "checkpoint_location": "runs/identity__seed_44/checkpoints/epoch_0007.pt",
+      "checkpoint_sha256": "d9d7671fe171fe1c21de930c690d929f4d5af57b5827dea500f9659338065014",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "identity",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 44,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "legacy_unsharp__seed_42": {
+      "best_epoch": 8,
+      "checkpoint_location": "runs/legacy_unsharp__seed_42/checkpoints/epoch_0008.pt",
+      "checkpoint_sha256": "e4212d383943d84850b7a37f626bb7ccd82d9bf6291535eb3e6c1367707252f4",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "legacy_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 42,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "legacy_unsharp__seed_43": {
+      "best_epoch": 7,
+      "checkpoint_location": "runs/legacy_unsharp__seed_43/checkpoints/epoch_0007.pt",
+      "checkpoint_sha256": "a00009f9ae6fa7369f7ce0dc31f699e0965a2e23ccbbc3e771995d057f46ab43",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "legacy_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 43,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    },
+    "legacy_unsharp__seed_44": {
+      "best_epoch": 10,
+      "checkpoint_location": "runs/legacy_unsharp__seed_44/checkpoints/epoch_0010.pt",
+      "checkpoint_sha256": "95f0769c2edef16185b10b84668dd2e693f64e8e0775693dcb4c2d18d003e5fb",
+      "contract": {
+        "config_hash": "84a8a82125aa0cee24bf5aa4dbce2b36a6d484f14e6a665fbeb34721d674288d",
+        "environment_hash": "3eddb324b114e40321183f0828076dfcf7e1f0656df6dd7ca9c73e8bcf64b213",
+        "manifest_hash": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+        "method": "legacy_unsharp",
+        "prepared_report_hash": "8aa497a46f7c77524ba609aec8e48542b3e016dc83dc888f2bf2a407aaaea768",
+        "seed": 44,
+        "source_hash": "c6dc52032a820770de7fbb8d225a83bc1f8954b45685e4083532936f1855a27a"
+      },
+      "selection_rule": "Highest validation selection metric, then lowest validation loss, then earliest epoch"
+    }
+  },
+  "suite_sha256": "93d16ec93050fa9b0e30ecbe501b506dfe321a3195c7a3a01a2b5fc1e3b13492"
+}

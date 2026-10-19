@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "test": {
+      "0": 80,
+      "1": 58
+    },
+    "train": {
+      "0": 261,
+      "1": 268
+    },
+    "validation": {
+      "0": 65,
+      "1": 68
+    }
+  },
+  "duplicate_check": "No exact byte or decoded-pixel duplicates; transformed/near duplicates not ruled out",
+  "grouping": "case IDs only; patient independence unverified",
+  "manifest_sha256": "821eb36842724d7be5bdf514ea6fe2c30adebe2bcccb50dc545fe4096702f6c4",
+  "patient_grouping_verified_by_supplied_map": false,
+  "patient_map_sha256": null,
+  "schema_version": 1,
+  "split_algorithm": "stratified train_test_split",
+  "split_seed": 2026,
+  "synthetic_or_partial": false,
+  "test_policy": "Montgomery is excluded from training, model selection and threshold tuning",
+  "validation_fraction_actual": 0.20090634441087613,
+  "validation_fraction_requested": 0.2
+}

@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "microbatch_size": 8,
+      "status": "passed"
+    }
+  ],
+  "batchnorm_note": "Gradient accumulation does not enlarge BatchNorm statistics; use the same microbatch across all arms.",
+  "checkpoint_bytes_estimate_all_runs": 24214522800,
+  "checkpoint_bytes_estimate_per_epoch": 161430152,
+  "disk_capacity_sufficient_for_checkpoints": true,
+  "disk_free_bytes": 59371945984,
+  "effective_batch_size": 32,
+  "environment": {
+    "cuda_device_count": 1,
+    "cuda_version": "12.6",
+    "cudnn_version": 91002,
+    "device_name": "Tesla T4",
+    "device_type": "cuda",
+    "packages": {
+      "numpy": "2.5.2",
+      "opencv-python-headless": "4.14.0.94",
+      "pandas": "3.0.6",
+      "pillow": "12.3.0",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "torch": "2.13.0+cu126",
+      "torchvision": "0.28.0+cu126"
+    },
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "python": "3.13.15",
+    "torch_threads": 1
+  },
+  "estimate_limitations": "Synthetic warmed-up forward/backward only; excludes data loading, preprocessing, validation, optimizer steps and checkpoint I/O. Storage excludes data and metadata. Check Drive quota separately.",
+  "estimated_train_compute_seconds_per_epoch": 11.40486569200948,
+  "forward_backward_seconds": 0.1702218760001415,
+  "microbatch_size": 8,
+  "optimizer_state_estimate_bytes": 80715076,
+  "parameter_count": 20178769,
+  "peak_cuda_allocated_bytes": 2056183296,
+  "real_training_completed": false,
+  "synthetic_preflight_only": true
+}

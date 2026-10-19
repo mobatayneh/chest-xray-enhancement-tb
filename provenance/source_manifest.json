@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "filename": "Comparative and Analytical Study of Chest X-ray Image.pptx",
+      "bytes": 530327,
+      "sha256": "0098a2ae451924e8a11bf80999e3a7926b47356e0d85a81322f7c6e7f81316aa"
+    },
+    {
+      "filename": "Comparative_and_Analytical_Study_of_Chest_X_ray_Image_Enhancement_Research___Mohammed_Albatayneh - Copy.pdf",
+      "bytes": 321764,
+      "sha256": "2bb08b825fba0dac73570b93954cb6c8e45d10a2d43908f00bab469a03940c4e"
+    },
+    {
+      "filename": "Comparative_and_Analytical_Study_of_Chest_X_ray_Image_Enhancement_Research___Mohammed_Albatayneh.pdf",
+      "bytes": 321764,
+      "sha256": "2bb08b825fba0dac73570b93954cb6c8e45d10a2d43908f00bab469a03940c4e"
+    },
+    {
+      "filename": "Enhancement_of_Chest_X-Ray_Images_to_Improve_Screening_Accuracy_..pdf",
+      "bytes": 9786124,
+      "sha256": "50ee568d9f3838732437439b0780876fcff702da951abf985194e01c62bc5823"
+    },
+    {
+      "filename": "Image_Enhancement_for_Tuberculosis_Detection_Using_Deep_Learning.pdf",
+      "bytes": 2628725,
+      "sha256": "53ffba2a345002eedbce484f94530ae2d8bfb20f92822fd47d8d8a01b7d17936"
+    },
+    {
+      "filename": "mohammad_albatayneh_EE82022_Project implementation.docx",
+      "bytes": 38633,
+      "sha256": "808e9de826eda6c6893dd9fd087bf2cb6511d4294a49280dea0e573df1adf1e2"
+    },
+    {
+      "filename": "mohammad_albatayneh_EE82022_Project implementation.pdf",
+      "bytes": 192190,
+      "sha256": "d6e3c7fe34b2e8d3ba8ff932be9be23ab68184f5b40814ad1d09b42bbcd3dbf0"
+    },
+    {
+      "filename": "summary.docx",
+      "bytes": 21520,
+      "sha256": "9f28912dd62e9ea257f9868c69d9664ac49aba2a90c197b1bb043966d197f3b8"
+    },
+    {
+      "filename": "try_1.ipynb",
+      "bytes": 1389177,
+      "sha256": "f027bb66327dfa109e24d016747cddbfe9beb470e6c98650aebf495186612e3b"
+    },
+    {
+      "filename": "try_2_ipynb.ipynb",
+      "bytes": 2541852,
+      "sha256": "ca2ef8288950f794b2e019efbe01ad551403da91d6c4e7c3a1986a8eb8e4be29"
+    },
+    {
+      "filename": "try_3.ipynb",
+      "bytes": 6212824,
+      "sha256": "435da2b1180742676fa56e2a56d5630879a95336a0aba59d1e7e7884ec7ee780"
+    },
+    {
+      "filename": "try_4.ipynb",
+      "bytes": 1714605,
+      "sha256": "ef05c76114a754eecbc4e75c9fcd9fe9fc6b32db5ca661ba6836f64f6e463dea"
+    },
+    {
+      "filename": "Visibility_Enhancement_of_Lesion_Regions_in_Chest_X-Ray_Images_With_Image_Fidelity_Preservation.pdf",
+      "bytes": 5658487,
+      "sha256": "4907a9689555f290c55a7e9bc4f57bdfa32fa137850bbbbd59b7f11f00f29b01"
+    }
+  ],
+  "identical_file_groups": [
+    [
+      "Comparative_and_Analytical_Study_of_Chest_X_ray_Image_Enhancement_Research___Mohammed_Albatayneh - Copy.pdf",
+      "Comparative_and_Analytical_Study_of_Chest_X_ray_Image_Enhancement_Research___Mohammed_Albatayneh.pdf"
+    ]
+  ]
+}

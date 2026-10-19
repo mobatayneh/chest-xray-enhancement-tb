@@ -1,0 +1,20 @@
+{
+  "stage": "unit_tests",
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp",
+    "<private-local-temporary-directory>"
+  ],
+  "started_at": "2026-10-19T07:59:43.159988+00:00",
+  "finished_at": "2026-10-19T08:00:47.920583+00:00",
+  "exit_code": 0,
+  "publication_note": "Private local command and log paths removed in the public derivative; original validation record retained privately.",
+  "status": "passed",
+  "kind": "software_tests_only",
+  "source_hash": "d18d2ae446d4f412515b0455976bef262b3d72e356394bbf3bdbd108b6201361",
+  "package_id": "421edf60690ad7a0",
+  "stdout": "........................................................................ [ 52%]\n..................................................................       [100%]\n138 passed in 62.67s (0:01:02)\n"
+}

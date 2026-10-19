@@ -1,0 +1,18 @@
+notebook,cell,matrix_in_cell,tn,fp,fn,tp,sample_count,accuracy_recomputed,accuracy_printed,accuracy_matches_printed_4dp,tb_sensitivity_recomputed,specificity_recomputed,evidence_type
+try_1.ipynb,1,1,115,15,23,112,265,0.8566037735849057,0.8566,True,0.8296296296296296,0.8846153846153846,saved notebook output; not rerun or independent test
+try_1.ipynb,3,1,116,13,21,115,265,0.8716981132075472,0.8717,True,0.8455882352941176,0.8992248062015504,saved notebook output; not rerun or independent test
+try_2_ipynb.ipynb,2,1,118,10,14,123,265,0.909433962264151,0.9094,True,0.8978102189781022,0.921875,saved notebook output; not rerun or independent test
+try_2_ipynb.ipynb,3,1,115,17,17,116,265,0.8716981132075472,0.8717,True,0.8721804511278195,0.8712121212121212,saved notebook output; not rerun or independent test
+try_2_ipynb.ipynb,4,1,116,21,10,118,265,0.8830188679245283,0.883,True,0.921875,0.8467153284671532,saved notebook output; not rerun or independent test
+try_2_ipynb.ipynb,5,1,111,13,19,122,265,0.879245283018868,0.8792,True,0.8652482269503546,0.8951612903225806,saved notebook output; not rerun or independent test
+try_2_ipynb.ipynb,6,1,119,9,25,112,265,0.8716981132075472,0.8717,True,0.8175182481751825,0.9296875,saved notebook output; not rerun or independent test
+try_3.ipynb,3,1,127,9,21,108,265,0.8867924528301887,0.8868,True,0.8372093023255814,0.9338235294117647,saved notebook output; not rerun or independent test
+try_3.ipynb,3,2,103,19,20,123,265,0.8528301886792453,0.8528,True,0.8601398601398601,0.8442622950819673,saved notebook output; not rerun or independent test
+try_3.ipynb,4,1,109,17,17,122,265,0.8716981132075472,0.8717,True,0.8776978417266187,0.8650793650793651,saved notebook output; not rerun or independent test
+try_3.ipynb,5,1,116,20,12,117,265,0.879245283018868,0.8792,True,0.9069767441860465,0.8529411764705882,saved notebook output; not rerun or independent test
+try_3.ipynb,6,1,105,17,25,118,265,0.8415094339622642,0.8415,True,0.8251748251748252,0.860655737704918,saved notebook output; not rerun or independent test
+try_3.ipynb,7,1,118,11,13,123,265,0.909433962264151,0.9094,True,0.9044117647058824,0.9147286821705426,saved notebook output; not rerun or independent test
+try_3.ipynb,8,1,103,16,18,128,265,0.8716981132075472,0.8717,True,0.8767123287671232,0.865546218487395,saved notebook output; not rerun or independent test
+try_3.ipynb,9,1,115,17,15,118,265,0.879245283018868,0.8792,True,0.8872180451127819,0.8712121212121212,saved notebook output; not rerun or independent test
+try_3.ipynb,10,1,122,15,19,109,265,0.8716981132075472,0.8717,True,0.8515625,0.8905109489051095,saved notebook output; not rerun or independent test
+try_4.ipynb,1,1,120,14,20,111,265,0.8716981132075472,0.8717,True,0.8473282442748091,0.8955223880597015,saved notebook output; not rerun or independent test
