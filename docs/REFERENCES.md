@@ -23,4 +23,4 @@ Bibliographic details above were checked against the supplied papers' front matt
 
 ## Contribution boundaries
 
-Original course-project materials are attributed to Mohammad Albatayneh as identified in their reports. Dataset collection/annotation, published methods, pretrained weights, and underlying libraries retain their respective authorship. The reconstruction supplies AI-assisted engineering, auditing, and documentation; it does not retroactively establish individual authorship of every historical cell or a new research contribution. Contributor/license choices require owner review before publication.
+Original course-project materials are attributed to Mohammad Albatayneh as identified in their reports. Dataset collection/annotation, published methods, pretrained weights, and underlying libraries retain their respective authorship. The reconstruction supplies software engineering, auditing, and documentation; it does not retroactively establish individual authorship of every historical cell or a new research contribution. Contributor/license choices require owner review before publication.

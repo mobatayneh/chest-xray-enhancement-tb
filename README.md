@@ -132,6 +132,6 @@ The rebuilt study still has a small external cohort, site/domain shift, uncertai
 
 ## Attribution and publication status
 
-The original materials identify Mohammad Albatayneh as the course-project author. This reconstruction is AI-assisted engineering, auditing, and documentation; individual authorship of every historical code cell has not been independently established. Dataset collection, literature methods, pretrained weights, and libraries retain their respective credits in [REFERENCES.md](docs/REFERENCES.md).
+The original materials identify Mohammad Albatayneh as the course-project author. This reconstruction covers software engineering, auditing, and documentation; individual authorship of every historical code cell has not been independently established. Dataset collection, literature methods, pretrained weights, and libraries retain their respective credits in [REFERENCES.md](docs/REFERENCES.md).
 
 No software license is granted by this delivery; the owner must select an authorized license. Dataset and third-party rights remain separate. The owner authorized public publication at [mobatayneh/chest-xray-enhancement-tb](https://github.com/mobatayneh/chest-xray-enhancement-tb). Changes are prepared and reviewed on `review/verified-colab-results`; no patient images, case-level result files, private original documents, or model weights are included. CV and LinkedIn updates are a separate subsequent step.

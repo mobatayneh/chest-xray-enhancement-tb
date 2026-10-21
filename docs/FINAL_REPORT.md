@@ -2,7 +2,7 @@
 
 ## Final experimental report
 
-**Project author:** Mohammad Albatayneh. **Results reviewed:** 19 October 2026. **Scope:** a controlled image-processing comparison, with AI-assisted software reconstruction and independent result checking. This report supersedes unsupported experimental interpretations in the original implementation report; original course materials remain unchanged in the private archive.
+**Project author:** Mohammad Albatayneh. **Results reviewed:** 19 October 2026. **Scope:** a controlled image-processing comparison, with software reconstruction and independent result checking. This report supersedes unsupported experimental interpretations in the original implementation report; original course materials remain unchanged in the private archive.
 
 ## Abstract
 
@@ -122,4 +122,4 @@ No additional training is required to report this completed negative/inconclusiv
 
 The public [aggregate evidence](../reports/colab_2026-10-19/README.md) includes full-precision metrics, per-run comparisons, configurations, environment, histories, checkpoint identities, uncertainty results, and figures. Private inputs are identified by SHA-256. Original reports and notebooks are preserved privately, while their audit corrections remain visible.
 
-Datasets are attributed to the NLM/Shenzhen/Montgomery contributors; EfficientNetV2, pretrained weights, and libraries retain their authors' credits. See [REFERENCES.md](REFERENCES.md) and the [official dataset access page](https://lhncbc.nlm.nih.gov/CHRB/CHRB-resources.html). No dataset, third-party paper, or large checkpoint is republished. The owner has not selected a software license. AI-assisted reconstruction and review are disclosed; no new architecture or clinical efficacy contribution is claimed.
+Datasets are attributed to the NLM/Shenzhen/Montgomery contributors; EfficientNetV2, pretrained weights, and libraries retain their authors' credits. See [REFERENCES.md](REFERENCES.md) and the [official dataset access page](https://lhncbc.nlm.nih.gov/CHRB/CHRB-resources.html). No dataset, third-party paper, or large checkpoint is republished. The owner has not selected a software license. The reconstruction and review do not establish a new architecture or clinical efficacy contribution.
